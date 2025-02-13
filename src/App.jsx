@@ -14,9 +14,10 @@ const App=()=> {
           <Hero />
         </div>
           <About />
+          
+          <Experience />
           <Tech />
           <Works />
-          <Experience />
           <Feedbacks />
           <StarsCanvas />
           <Contact />
