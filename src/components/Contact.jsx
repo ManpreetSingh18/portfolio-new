@@ -17,11 +17,36 @@ const Contact = () => {
   })
   const [loading,setLoading]=useState(false);
   const handleChange=(e)=>{
-
+    const {name,value}=e.target;
+    setForm({...form,[name]:value})
   }
   const handleSubmit=(e)=>{
 
-
+    e.preventDefault();
+    setLoading(true);
+    //template-template_popnjk8
+    //service-service_x3xfm4l
+    //api-D2SM9wGxEWrpV-N7c
+    emailjs.send('service_x3xfm4l'
+        ,'template_popnjk8',
+        {
+           from_name:form.name,
+           to_name:form.email,
+           message:form.message,
+           to_name:'Manpreet Singh',
+           from_email:'manpreetproject123@gmail.com'
+        },
+        'D2SM9wGxEWrpV-N7c'
+      )
+      .then(()=>{
+        setLoading(false);
+        setForm({name:'',email:'',message:''})
+        alert('Thank You. I will get back to you as soon as possible!')
+      },(error)=>{
+        setLoading(false);
+        console.log('Error occurred',error);
+        alert('Something went wrong!')
+      }) 
   }
   return (
     <div className='xl:mt-12 xl:flex-row flex-col flex-col-reverse flex gap-10 overflow-hidden'>
