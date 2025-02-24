@@ -29,7 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import tavpe from "./tavpe.png";
+import physeria from "./physeria.png";
+import shoewebsite from "./shoe-website.png";
 export {
   logo,
   backend,
@@ -57,6 +59,9 @@ export {
   starbucks,
   tesla,
   carrent,
+  tavpe,
+  physeria,
+  shoewebsite,
   jobit,
-  tripguide,
+  tripguide
 };
