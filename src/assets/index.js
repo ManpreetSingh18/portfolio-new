@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bvicamlogo from "./company/bvicamlogo.png";
+import khalsalogo from "./company/khalsalogo.jpeg"
+import sdlogo from  "./company/sdlogo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,6 +58,9 @@ export {
   typescript,
   threejs,
   meta,
+  bvicamlogo,
+  khalsalogo,
+  sdlogo,
   shopify,
   starbucks,
   tesla,

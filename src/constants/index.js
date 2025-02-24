@@ -16,6 +16,9 @@ import {
   figma,
   docker,
   meta,
+  bvicamlogo,
+  khalsalogo,
+  sdlogo,
   starbucks,
   tesla,
   shopify,
@@ -26,6 +29,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -122,7 +126,7 @@ const experiences = [
   {
     title: "MCA",
     company_name: "BVICAM",
-    icon: starbucks,
+    icon: bvicamlogo,
     iconBg: "#383E56",
     date: "2023 -  2025",
     points: [
@@ -136,7 +140,7 @@ const experiences = [
   {
     title: "B.Sc (Hons) Computer Science",
     company_name: "SGTB Khalsa College, DU",
-    icon: tesla,
+    icon: khalsalogo,
     iconBg: "#E6DEDD",
     date: "2019 - 2022",
     points: [
@@ -149,7 +153,7 @@ const experiences = [
   {
     title: "12th",
     company_name: "S.D Public School",
-    icon: shopify,
+    icon: sdlogo,
     iconBg: "#383E56",
     date: "2018 - 2019",
     points: [
@@ -160,7 +164,7 @@ const experiences = [
   {
     title: "10th",
     company_name: "S.D Public School",
-    icon: meta,
+    icon: sdlogo,
     iconBg: "#E6DEDD",
     date: "2016 - 2017",
     points: [
