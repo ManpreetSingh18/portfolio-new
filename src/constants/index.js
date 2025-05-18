@@ -24,6 +24,7 @@ import {
   shopify,
   carrent,
   tavpe,
+  prepai,
   physeria,
   shoewebsite,
   jobit,
@@ -203,6 +204,29 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "PrepAi",
+    description:
+      "Developed an AI-powered, personalized web platform that helps users build career readiness through resume generation, cover letter writing, skill-based assessments, and real-time industry insights — all in a unified, user-friendly system.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "neon",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prepai,
+    source_code_link: "https://prepai-fawn.vercel.app/",
+  }
+  ,
   {
     name: "TavPe",
     description:
